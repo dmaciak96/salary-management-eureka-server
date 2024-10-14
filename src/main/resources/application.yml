@@ -1,0 +1,12 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+spring:
+  application:
+    name: eureka-server
+logging:
+  file:
+    path: ./logs
+    name: ${spring.application.name}
